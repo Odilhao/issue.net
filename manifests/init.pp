@@ -1,0 +1,3 @@
+class issue {
+include issue
+}
