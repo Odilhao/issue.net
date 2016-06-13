@@ -1,0 +1,1 @@
+Modulo para correção do arquivo issue.net em distribuições RHEL 7+
