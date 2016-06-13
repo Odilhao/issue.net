@@ -2,6 +2,7 @@ source 'https://rubygems.org'
 
 group :test do
   gem 'rest-client', '~> 1.6.8', :require => false, :platforms => :ruby_18
+  gem 'puppet-lint',  '>=1.0.1'
 end
 
 group :rake, :test do
@@ -9,6 +10,7 @@ group :rake, :test do
   gem 'puppet-blacksmith',       :require => false
   gem 'beaker',                  :require => false
   gem 'beaker-rspec',            :require => false
+  gem 'puppet-lint',  '>=1.0.1'
 end
 
 group :rake do
